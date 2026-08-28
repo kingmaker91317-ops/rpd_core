@@ -1,0 +1,363 @@
+CRITICAL - 2023-07-17 00:03:23 --> Call to undefined function App\Controllers\write_file()
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 00:04:30 --> Call to undefined function App\Controllers\write_file()
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 00:05:26 --> Call to undefined function App\Controllers\write_file()
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:47:09 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:47:11 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:47:12 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:47:21 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:47:41 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:47:41 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:48:26 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:48:29 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:48:30 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:48:31 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 10:52:17 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:10:53 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:10:53 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:03 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:03 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:06 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:07 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:28 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:30 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:31 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:34 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 11:26:36 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 13:35:02 --> Undefined variable: expiry
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 189, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-17 13:36:39 --> Undefined variable: expired_date
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 189, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-17 13:42:50 --> Undefined index: expiredDate
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/modvipxy/...', 189, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-17 13:46:55 --> Undefined index: expiredDate
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/modvipxy/...', 189, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-17 13:50:16 --> Undefined variable: expired_date
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 190, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-17 13:50:17 --> Undefined variable: expired_date
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 190, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-17 14:09:12 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:09:14 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:13:21 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:17:10 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:18:30 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:18:31 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:18:33 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:19:48 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:19:50 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/modvipxy/...')
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-17 14:20:19 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 14:20:25 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 14:21:12 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 14:21:14 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 14:21:15 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 14:21:16 --> Trying to access array offset on value of type null
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/modvipxy/...', 21, Array)
+#1 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-17 14:29:51 --> Undefined property: stdClass::$expiredDate
+#0 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/modvipxy/...', 108, Array)
+#1 /home/modvipxy/testing.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/testing.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/testing.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

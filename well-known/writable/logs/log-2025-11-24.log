@@ -1,0 +1,59 @@
+ERROR - 2025-11-24 05:06:09 --> Error connecting to the database: Too many connections
+CRITICAL - 2025-11-24 05:06:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/hikarimo/public_html/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/hikarimo/public_html/app/Models/UserModel.php(70): App\Models\UserModel->getUser('1')
+#5 /home/hikarimo/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#8 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-11-24 07:41:11 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/hikarimo/...', 8, Array)
+#1 /home/hikarimo/public_html/conn.php(8): mysqli_connect('localhost', 'hikarimo_banti', 'hikarimo_banti', 'hikarimo_banti')
+#2 /home/hikarimo/public_html/app/Controllers/Connect.php(13): include('/home/hikarimo/...')
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-11-24 07:41:14 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/hikarimo/...', 8, Array)
+#1 /home/hikarimo/public_html/conn.php(8): mysqli_connect('localhost', 'hikarimo_banti', 'hikarimo_banti', 'hikarimo_banti')
+#2 /home/hikarimo/public_html/app/Controllers/Connect.php(13): include('/home/hikarimo/...')
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-11-24 14:32:18 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/hikarimo/...', 8, Array)
+#1 /home/hikarimo/public_html/conn.php(8): mysqli_connect('localhost', 'hikarimo_banti', 'hikarimo_banti', 'hikarimo_banti')
+#2 /home/hikarimo/public_html/app/Controllers/Connect.php(13): include('/home/hikarimo/...')
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-11-24 14:32:18 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/hikarimo/...', 8, Array)
+#1 /home/hikarimo/public_html/conn.php(8): mysqli_connect('localhost', 'hikarimo_banti', 'hikarimo_banti', 'hikarimo_banti')
+#2 /home/hikarimo/public_html/app/Controllers/Connect.php(13): include('/home/hikarimo/...')
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-11-24 15:37:47 --> Too many connections
+#0 /home/hikarimo/public_html/conn.php(8): mysqli_connect('localhost', 'hikarimo_banti', 'hikarimo_banti', 'hikarimo_banti')
+#1 /home/hikarimo/public_html/app/Controllers/Connect.php(149): include('/home/hikarimo/...')
+#2 /home/hikarimo/public_html/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

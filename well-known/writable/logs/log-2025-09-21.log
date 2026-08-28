@@ -1,0 +1,56 @@
+CRITICAL - 2025-09-21 00:00:40 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-21 00:00:43 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-21 00:00:44 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-21 00:00:46 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-21 00:00:47 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-21 13:58:37 --> Undefined index: HTTP_USER_AGENT
+#0 /home/ffdetect/public_html/app/Views/Auth/login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ffdetect/...', 42, Array)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ffdetect/...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/ffdetect/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

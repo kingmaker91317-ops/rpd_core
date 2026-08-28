@@ -1,0 +1,1322 @@
+CRITICAL - 2025-09-08 00:00:37 --> mysqli_connect(): Error while reading greeting packet. PID=915722
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 00:00:39 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 00:00:39 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 00:00:42 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 06:00:07 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 06:58:02 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:03 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:11 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:12 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:19 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:28 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:31 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:33 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:35 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:37 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:43 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:45 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:46 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:47 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:50 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:54 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:57 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:58:58 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:05 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:05 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:06 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:11 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:16 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:16 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:16 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:16 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:21 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:26 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:29 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:29 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:32 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:34 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:36 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:50 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:52 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 06:59:57 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:03 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:05 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:06 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:11 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:11 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:14 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:17 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:20 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:22 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:23 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:23 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:25 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:30 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-09-08 07:00:36 --> Class 'App\Models\FuncationModel' not found
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-09-08 07:00:39 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:00:39 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:00:46 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:00:46 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:00:52 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:00:52 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:03 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:03 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:09 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:09 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:10 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:10 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:10 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:10 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:14 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:14 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:17 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:17 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:23 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:23 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:33 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:33 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:34 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:34 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:45 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:45 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:01:52 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:01:52 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:02 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:02 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:04 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:04 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:05 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:05 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:07 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:07 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:12 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:12 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:21 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:21 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:28 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:28 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:39 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:39 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:44 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:44 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:49 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:49 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:02:55 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:02:55 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:02 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:02 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:07 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:07 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:11 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:11 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:14 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:14 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:14 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:14 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:21 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:21 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-09-08 07:03:22 --> Table 'ffdetect_main.function_code' doesn't exist
+CRITICAL - 2025-09-08 07:03:22 --> Table 'ffdetect_main.function_code' doesn't exist
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ffdetect/public_html/app/Models/FuncationModel.php(30): CodeIgniter\Model->__call('get', Array)
+#6 /home/ffdetect/public_html/app/Controllers/Connect.php(395): App\Models\FuncationModel->getFuncation(Array)
+#7 /home/ffdetect/public_html/app/Controllers/Connect.php(354): App\Controllers\Connect->index_post()
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-09-08 12:00:37 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 14:14:49 --> Invalid file: Layout/Header.php
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/Header.p...')
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render('Layout/Header', NULL, true)
+#2 /home/ffdetect/public_html/app/Views/Layout/Starter.php(23): CodeIgniter\View\View->include('Layout/Header')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ffdetect/...')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('Layout/Starter', Array, true)
+#6 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Admin/referral', Array, true)
+#7 /home/ffdetect/public_html/app/Controllers/User.php(79): view('Admin/referral', Array)
+#8 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#9 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-09-08 15:28:04 --> Undefined variable: idKeys
+#0 /home/ffdetect/public_html/app/Controllers/Keys.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ffdetect/...', 500, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 18:03:14 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 18:03:17 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 18:03:19 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 18:03:39 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:01:48 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:01:55 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:03:32 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:03:34 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:05:07 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:05:54 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:05:59 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:06:28 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:06:30 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:06:32 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 19:28:24 --> Invalid file: Keys/list.php
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Keys/list.php')
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#2 /home/ffdetect/public_html/app/Controllers/Keys.php(60): view('Keys/list', Array)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 19:28:27 --> Invalid file: Keys/list.php
+#0 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Keys/list.php')
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#2 /home/ffdetect/public_html/app/Controllers/Keys.php(60): view('Keys/list', Array)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-08 20:04:12 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:04:19 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:04:22 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:04:24 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:04:32 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:04:39 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:05:04 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:05:23 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:05:27 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:17:47 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:17:51 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:20:02 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:20:20 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:21:18 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:26:12 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:26:29 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:26:32 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:26:37 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:26:42 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:27:27 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:27:51 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:27:53 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:28:03 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:28:12 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:28:33 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:29:16 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:30:06 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:30:10 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:30:36 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:30:46 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:30:54 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:30:54 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:31:06 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:31:23 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:33:41 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:33:45 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:36:28 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 20:36:41 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 21:31:04 --> Undefined variable: idKeys
+#0 /home/ffdetect/public_html/app/Controllers/Keys.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ffdetect/...', 500, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 21:35:58 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 21:36:12 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-08 21:36:59 --> Trying to get property 'level' of non-object
+#0 /home/ffdetect/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ffdetect/...', 71, Array)
+#1 /home/ffdetect/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/create-re...', 'before')
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

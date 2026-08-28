@@ -1,0 +1,72 @@
+<?= $this->extend('Layout/Starter') ?>
+
+<?= $this->section('content') ?>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<div class="row justify-content-center pt-5">
+    <div class="col-lg-4">
+        <?= $this->include('Layout/msgStatus') ?>
+        <div class="card shadow-sm mb-5 border-success">
+            <div class="card-header h5 p-3 text-white bg-success">
+                Welcome back!
+            </div>
+            <div class="card-body bg-white">
+                <?= form_open() ?>
+                <!-- Username -->
+                <div class="form-group mb-3">
+                    <label for="username" class="text-dark">Username</label>
+                    <div class="input-group mt-2">
+                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                        <input type="text" class="form-control" name="username" id="username" placeholder="Your username" required minlength="4">
+                    </div>
+                    <?php if ($validation->hasError('username')) : ?>
+                        <small class="form-text text-danger"><?= $validation->getError('username') ?></small>
+                    <?php endif; ?>
+                </div>
+
+                <!-- Password -->
+                <div class="form-group mb-3">
+                    <label for="password" class="text-dark">Password</label>
+                    <div class="input-group mt-2">
+                        <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Your password" required minlength="6">
+                    </div>
+                    <?php if ($validation->hasError('password')) : ?>
+                        <small class="form-text text-danger"><?= $validation->getError('password') ?></small>
+                    <?php endif; ?>
+                </div>
+
+                <!-- Hidden IP/User-Agent -->
+                <input type="hidden" name="ip" value="<?= $_SERVER['HTTP_USER_AGENT'] ?>">
+
+                <!-- Stay login -->
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" name="stay_log" id="stay_log" value="yes">
+                    <label class="form-check-label text-dark" for="stay_log">
+                        Stay login?
+                    </label>
+                </div>
+
+                <!-- Login Button -->
+                <div class="form-group mb-2">
+                    <button type="submit" class="btn btn-success w-100">
+                        <i class="bi bi-box-arrow-in-right"></i> Log in
+                    </button>
+                </div>
+                <?= form_close() ?>
+            </div>
+        </div>
+
+        <!-- Extra Links -->
+        <p class="text-center text-danger">
+            <small>BUY PANEL :- <a href="https://telegram.me/FFHACKDETECTT1" class="text-danger">@FFHACKDETECTT1</a></small>
+        </p>
+        <p class="text-center text-muted">
+            <small>Don't have an account yet? <a href="<?= site_url('register') ?>" class="text-success">Register here</a></small>
+        </p>
+    </div>
+</div>
+
+<?= $this->endSection() ?>

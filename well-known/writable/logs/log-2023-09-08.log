@@ -1,0 +1,9 @@
+CRITICAL - 2023-09-08 13:53:02 --> Undefined variable: result
+#0 /home/modvipxy/bablu.modvip.xyz/app/Helpers/nata_helper.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 81, Array)
+#1 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Keys.php(311): setDevice('de19fcd4db923ac...', '0')
+#2 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Keys.php(194): App\Controllers\Keys->edit_key_action()
+#3 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#4 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/bablu.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

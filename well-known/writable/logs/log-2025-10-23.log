@@ -1,0 +1,68 @@
+CRITICAL - 2025-10-23 06:01:05 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/bbteammo/...', 8, Array)
+#1 /home/bbteammo/public_html/conn.php(8): mysqli_connect('localhost', 'bbteammo_banti', 'bbteammo_banti', 'bbteammo_banti')
+#2 /home/bbteammo/public_html/app/Controllers/Connect.php(13): include('/home/bbteammo/...')
+#3 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-10-23 06:01:12 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/bbteammo/...', 8, Array)
+#1 /home/bbteammo/public_html/conn.php(8): mysqli_connect('localhost', 'bbteammo_banti', 'bbteammo_banti', 'bbteammo_banti')
+#2 /home/bbteammo/public_html/app/Controllers/Connect.php(13): include('/home/bbteammo/...')
+#3 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-10-23 06:01:13 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/bbteammo/...', 8, Array)
+#1 /home/bbteammo/public_html/conn.php(8): mysqli_connect('localhost', 'bbteammo_banti', 'bbteammo_banti', 'bbteammo_banti')
+#2 /home/bbteammo/public_html/app/Controllers/Connect.php(13): include('/home/bbteammo/...')
+#3 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-10-23 06:01:17 --> Too many connections
+#0 /home/bbteammo/public_html/conn.php(8): mysqli_connect('localhost', 'bbteammo_banti', 'bbteammo_banti', 'bbteammo_banti')
+#1 /home/bbteammo/public_html/app/Controllers/Connect.php(149): include('/home/bbteammo/...')
+#2 /home/bbteammo/public_html/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#3 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-10-23 06:01:27 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/bbteammo/...', 8, Array)
+#1 /home/bbteammo/public_html/conn.php(8): mysqli_connect('localhost', 'bbteammo_banti', 'bbteammo_banti', 'bbteammo_banti')
+#2 /home/bbteammo/public_html/app/Controllers/Connect.php(13): include('/home/bbteammo/...')
+#3 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2025-10-23 06:01:33 --> Error connecting to the database: Too many connections
+CRITICAL - 2025-10-23 06:01:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bbteammo/public_html/app/Models/KeysModel.php(26): CodeIgniter\Model->__call('get', Array)
+#4 /home/bbteammo/public_html/app/Controllers/Connect.php(97): App\Models\KeysModel->getKeysGame(Array)
+#5 /home/bbteammo/public_html/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#6 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#8 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-10-23 06:01:34 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/bbteammo/...', 8, Array)
+#1 /home/bbteammo/public_html/conn.php(8): mysqli_connect('localhost', 'bbteammo_banti', 'bbteammo_banti', 'bbteammo_banti')
+#2 /home/bbteammo/public_html/app/Controllers/Connect.php(13): include('/home/bbteammo/...')
+#3 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/bbteammo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bbteammo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

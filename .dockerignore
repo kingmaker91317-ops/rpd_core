@@ -1,0 +1,5 @@
+.git
+.gitignore
+*.log
+well-known/writable/session/*
+public_html/public_html/writable/session/*

@@ -1,0 +1,64 @@
+CRITICAL - 2025-09-13 03:25:24 --> Undefined index: HTTP_USER_AGENT
+#0 /home/ffdetect/public_html/app/Views/Auth/login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ffdetect/...', 42, Array)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ffdetect/...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/ffdetect/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-13 06:00:36 --> mysqli_connect(): (HY000/2002): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/ffdetect/...', 8, Array)
+#1 /home/ffdetect/public_html/conn.php(8): mysqli_connect('localhost', 'ffdetect_main', 'ffdetect_main', 'ffdetect_main')
+#2 /home/ffdetect/public_html/app/Controllers/Connect.php(13): include('/home/ffdetect/...')
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-09-13 09:48:34 --> Undefined index: HTTP_USER_AGENT
+#0 /home/ffdetect/public_html/app/Views/Auth/login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ffdetect/...', 42, Array)
+#1 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ffdetect/...')
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/ffdetect/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-09-13 10:22:53 --> Undefined variable: idKeys
+#0 /home/ffdetect/public_html/app/Controllers/Keys.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ffdetect/...', 500, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-13 10:23:02 --> Undefined variable: idKeys
+#0 /home/ffdetect/public_html/app/Controllers/Keys.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ffdetect/...', 500, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-13 10:23:15 --> Undefined variable: idKeys
+#0 /home/ffdetect/public_html/app/Controllers/Keys.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ffdetect/...', 500, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#2 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2025-09-13 13:05:05 --> A non-numeric value encountered
+#0 /home/ffdetect/public_html/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/ffdetect/...', 88, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(363): getPrice(Array, '168', '')
+#2 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

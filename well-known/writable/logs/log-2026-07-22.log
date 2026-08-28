@@ -1,0 +1,136 @@
+ERROR - 2026-07-22 00:13:36 --> Duplicate entry 'SMR-7XK9M2Q8 SMR-P4W8T1Y6 SMR-H9' for key 'user_key'
+CRITICAL - 2026-07-22 00:13:36 --> Duplicate entry 'SMR-7XK9M2Q8 SMR-P4W8T1Y6 SMR-H9' for key 'user_key'
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/xkynpbah/public_html/app/Controllers/Keys.php(535): CodeIgniter\Model->insert(Array)
+#8 /home/xkynpbah/public_html/app/Controllers/Keys.php(430): App\Controllers\Keys->generate_action()
+#9 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#10 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2026-07-22 16:14:40 --> A non-numeric value encountered
+#0 /home/xkynpbah/public_html/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/xkynpbah/...', 88, Array)
+#1 /home/xkynpbah/public_html/app/Controllers/Keys.php(467): getPrice(Array, '24', '')
+#2 /home/xkynpbah/public_html/app/Controllers/Keys.php(430): App\Controllers\Keys->generate_action()
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-07-22 17:18:17 --> A non-numeric value encountered
+#0 /home/xkynpbah/public_html/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/xkynpbah/...', 88, Array)
+#1 /home/xkynpbah/public_html/app/Controllers/Keys.php(467): getPrice(Array, '24', '')
+#2 /home/xkynpbah/public_html/app/Controllers/Keys.php(430): App\Controllers\Keys->generate_action()
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-07-22 22:13:06 --> There is no data to update.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/xkynpbah/public_html/app/Controllers/User.php(1050): CodeIgniter\Model->update('1', Array)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->save_telegram_token()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-07-22 22:13:09 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/test-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:13:11 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/test-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:13:13 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/save-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:13:14 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/save-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:13:15 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/save-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:13:19 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/save-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:13:36 --> The action you requested is not allowed.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('settings/save-t...', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-07-22 22:15:08 --> There is no data to update.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/xkynpbah/public_html/app/Controllers/User.php(1050): CodeIgniter\Model->update('1', Array)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->save_telegram_token()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-07-22 22:15:17 --> There is no data to update.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/xkynpbah/public_html/app/Controllers/User.php(1050): CodeIgniter\Model->update('1', Array)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->save_telegram_token()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-07-22 22:15:35 --> There is no data to update.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/xkynpbah/public_html/app/Controllers/User.php(1050): CodeIgniter\Model->update('1', Array)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->save_telegram_token()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-07-22 22:15:36 --> There is no data to update.
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/xkynpbah/public_html/app/Controllers/User.php(1050): CodeIgniter\Model->update('1', Array)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->save_telegram_token()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2026-07-22 23:07:57 --> [UserBot] sendMessage failed: 22 : The requested URL returned error: 400

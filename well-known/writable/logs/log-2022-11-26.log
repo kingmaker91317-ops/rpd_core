@@ -1,0 +1,39 @@
+CRITICAL - 2022-11-26 22:23:03 --> Access denied for user 'excusevi_Main'@'localhost' (using password: YES)
+#0 /home/prime-zero.ml/public_html/app/Views/Server/conn.php(8): mysqli_connect()
+#1 /home/prime-zero.ml/public_html/app/Views/Server/Server.php(3): include('/home/prime-zer...')
+#2 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/prime-zer...')
+#3 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /home/prime-zero.ml/public_html/app/Controllers/User.php(295): view()
+#6 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#7 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/prime-zero.ml/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-26 22:52:17 --> Invalid file: Keys/generate.php
+#0 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/prime-zero.ml/public_html/app/Controllers/Keys.php(290): view()
+#3 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/prime-zero.ml/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-26 23:22:24 --> Cannot redeclare App\Controllers\Keys::deleteExpired()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-26 23:46:38 --> Cannot redeclare App\Controllers\Keys::deleteUnused()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-26 23:46:51 --> Cannot redeclare App\Controllers\Keys::deleteUnused()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-26 23:46:56 --> Cannot redeclare App\Controllers\Keys::deleteUnused()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-26 23:47:07 --> Cannot redeclare App\Controllers\Keys::deleteUnused()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-26 23:47:13 --> Cannot redeclare App\Controllers\Keys::deleteUnused()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,16 @@
+ERROR - 2025-10-05 17:43:28 --> Unknown column 'pass_key' in 'ORDER BY'
+CRITICAL - 2025-10-05 17:43:28 --> Unknown column 'pass_key' in 'ORDER BY'
+#0 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT CONCAT(k...', 0)
+#1 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(k...')
+#2 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(k...')
+#3 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(k...', Array, false)
+#4 /home/powercheatofc/public_html/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/powercheatofc/public_html/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /home/powercheatofc/public_html/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /home/powercheatofc/public_html/app/Models/KeysModel.php(71): Hermawan\DataTables\DataTable->toJson(true)
+#8 /home/powercheatofc/public_html/app/Controllers/Keys.php(163): App\Models\KeysModel->API_getKeys()
+#9 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->api_get_keys()
+#10 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 /home/powercheatofc/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/powercheatofc/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

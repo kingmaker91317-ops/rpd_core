@@ -1,0 +1,32 @@
+ERROR - 2025-11-14 10:38:47 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2025-11-14 10:38:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('ADMINBBTEAM', 'username', Array, NULL)
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('username', 'username', 'ADMINBBTEAM', Array, Array)
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/hikarimo/public_html/app/Controllers/Auth.php(43): CodeIgniter\Controller->validate(Array)
+#7 /home/hikarimo/public_html/app/Controllers/Auth.php(23): App\Controllers\Auth->login_action()
+#8 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2025-11-14 11:05:51 --> Error connecting to the database: Access denied for user '****'@'localhost' to database '****'
+CRITICAL - 2025-11-14 11:05:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+#0 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('BBTEAMADMIN', 'username', Array, NULL)
+#4 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('username', 'username', 'BBTEAMADMIN', Array, Array)
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/hikarimo/public_html/app/Controllers/Auth.php(43): CodeIgniter\Controller->validate(Array)
+#7 /home/hikarimo/public_html/app/Controllers/Auth.php(23): App\Controllers\Auth->login_action()
+#8 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

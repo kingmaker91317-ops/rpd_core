@@ -1,0 +1,47 @@
+CRITICAL - 2025-11-19 08:46:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-11-19 18:58:30 --> Undefined property: CodeIgniter\View\View::$game_list
+#0 /home/hikarimo/public_html/app/Views/Keys/list.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/hikarimo/...', 256, Array)
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hikarimo/...')
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#4 /home/hikarimo/public_html/app/Controllers/Keys.php(119): view('Keys/list', Array)
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#6 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#7 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 19:03:33 --> Undefined property: CodeIgniter\View\View::$game_list
+#0 /home/hikarimo/public_html/app/Views/Keys/list.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/hikarimo/...', 256, Array)
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hikarimo/...')
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#4 /home/hikarimo/public_html/app/Controllers/Keys.php(120): view('Keys/list', Array)
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#6 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#7 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 19:03:35 --> Undefined property: CodeIgniter\View\View::$game_list
+#0 /home/hikarimo/public_html/app/Views/Keys/list.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/hikarimo/...', 256, Array)
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hikarimo/...')
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#4 /home/hikarimo/public_html/app/Controllers/Keys.php(120): view('Keys/list', Array)
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#6 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#7 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 19:03:37 --> Undefined property: CodeIgniter\View\View::$game_list
+#0 /home/hikarimo/public_html/app/Views/Keys/list.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/hikarimo/...', 256, Array)
+#1 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hikarimo/...')
+#2 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#4 /home/hikarimo/public_html/app/Controllers/Keys.php(120): view('Keys/list', Array)
+#5 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#6 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#7 /home/hikarimo/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hikarimo/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

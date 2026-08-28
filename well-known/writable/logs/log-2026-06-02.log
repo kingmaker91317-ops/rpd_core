@@ -1,0 +1,20 @@
+CRITICAL - 2026-06-02 13:59:26 --> Undefined index: HTTP_USER_AGENT
+#0 /home/u160951123/domains/rapidcore.fun/public_html/app/Views/Auth/login.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/u16095112...', 120, Array)
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u16095112...')
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Controllers/Auth.php(27): view('Auth/login', Array)
+#5 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-06-02 20:21:48 --> mysqli_connect(): (HY000/2002): Operation not permitted
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/u16095112...', 8, Array)
+#1 /home/u160951123/domains/rapidcore.fun/public_html/conn.php(8): mysqli_connect('localhost', 'u160951123_Tito...', 'Titooxxx1', 'u160951123_Tito...')
+#2 /home/u160951123/domains/rapidcore.fun/public_html/app/Controllers/Connect.php(26): include('/home/u16095112...')
+#3 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

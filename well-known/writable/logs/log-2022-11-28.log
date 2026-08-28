@@ -1,0 +1,9 @@
+CRITICAL - 2022-11-28 10:24:23 --> Invalid file: Auth/login.php
+#0 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/prime-zero.ml/public_html/app/Controllers/Auth.php(37): view()
+#3 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/prime-zero.ml/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/prime-zero.ml/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

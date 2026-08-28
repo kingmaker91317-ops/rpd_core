@@ -1,0 +1,4 @@
+[09-Oct-2025 02:57:23 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/powercheatofc/public_html/app/Views/Auth/login.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/powercheatofc/public_html/app/Views/Auth/login.php on line 1

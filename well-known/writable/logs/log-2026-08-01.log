@@ -1,0 +1,53 @@
+ERROR - 2026-08-01 02:37:10 --> Telegram controller called
+ERROR - 2026-08-01 02:37:10 --> Telegram Bot Token not set in .env
+ERROR - 2026-08-01 02:37:29 --> Telegram controller called
+ERROR - 2026-08-01 02:37:29 --> Telegram Bot Token not set in .env
+CRITICAL - 2026-08-01 09:07:21 --> A non-numeric value encountered
+#0 /home/xkynpbah/public_html/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/xkynpbah/...', 88, Array)
+#1 /home/xkynpbah/public_html/app/Controllers/Keys.php(483): getPrice(Array, '720', '')
+#2 /home/xkynpbah/public_html/app/Controllers/Keys.php(446): App\Controllers\Keys->generate_action()
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-08-01 14:52:04 --> Trying to get property 'level' of non-object
+#0 /home/xkynpbah/public_html/app/Models/UserModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/xkynpbah/...', 84, Array)
+#1 /home/xkynpbah/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-08-01 14:52:20 --> Trying to get property 'level' of non-object
+#0 /home/xkynpbah/public_html/app/Models/UserModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/xkynpbah/...', 84, Array)
+#1 /home/xkynpbah/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-08-01 15:03:08 --> Trying to get property 'level' of non-object
+#0 /home/xkynpbah/public_html/app/Models/UserModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/xkynpbah/...', 84, Array)
+#1 /home/xkynpbah/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-08-01 15:03:35 --> Trying to get property 'level' of non-object
+#0 /home/xkynpbah/public_html/app/Models/UserModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/xkynpbah/...', 84, Array)
+#1 /home/xkynpbah/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-08-01 15:03:36 --> Trying to get property 'level' of non-object
+#0 /home/xkynpbah/public_html/app/Models/UserModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/xkynpbah/...', 84, Array)
+#1 /home/xkynpbah/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,26 @@
+ERROR - 2026-08-03 07:46:11 --> Telegram controller called
+ERROR - 2026-08-03 07:46:11 --> Telegram Bot Token not set in .env
+ERROR - 2026-08-03 07:46:19 --> Telegram controller called
+ERROR - 2026-08-03 18:37:55 --> [UserBot] sendMessage failed: 22 : The requested URL returned error: 403
+ERROR - 2026-08-03 18:38:07 --> Telegram controller called
+ERROR - 2026-08-03 18:38:07 --> Telegram Bot Token not set in .env
+ERROR - 2026-08-03 18:38:54 --> Telegram controller called
+ERROR - 2026-08-03 18:38:54 --> Telegram Bot Token not set in .env
+CRITICAL - 2026-08-03 22:30:33 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php on line 538
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php(538): dot_array_search('user_key', NULL)
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php(498): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_key', false, NULL, NULL)
+#2 /home/xkynpbah/public_html/app/Controllers/Login.php(15): CodeIgniter\HTTP\IncomingRequest->getVar('user_key')
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-08-03 22:31:52 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php on line 538
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php(538): dot_array_search('user_key', NULL)
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php(498): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_key', false, NULL, NULL)
+#2 /home/xkynpbah/public_html/app/Controllers/Login.php(15): CodeIgniter\HTTP\IncomingRequest->getVar('user_key')
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

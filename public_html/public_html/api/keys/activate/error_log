@@ -1,0 +1,6 @@
+[23-Feb-2026 15:56:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'arabemodz_lamdocheat'@'localhost' (using password: YES) in /home/mbktunp/public_html/api/keys/activate/index.php:58
+Stack trace:
+#0 /home/mbktunp/public_html/api/keys/activate/index.php(58): mysqli->__construct()
+#1 /home/mbktunp/public_html/api/keys/activate/index.php(100): db_connect()
+#2 {main}
+  thrown in /home/mbktunp/public_html/api/keys/activate/index.php on line 58

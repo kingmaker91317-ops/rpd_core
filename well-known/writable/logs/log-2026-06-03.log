@@ -1,0 +1,81 @@
+ERROR - 2026-06-03 12:21:46 --> Error connecting to the database: Operation not permitted
+CRITICAL - 2026-06-03 12:21:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation not permitted
+#0 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(70): App\Models\UserModel->getUser('314')
+#5 /home/u160951123/domains/rapidcore.fun/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/api', 'before')
+#8 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-03 12:21:46 --> Error connecting to the database: Operation not permitted
+CRITICAL - 2026-06-03 12:21:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation not permitted
+#0 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(70): App\Models\UserModel->getUser('314')
+#5 /home/u160951123/domains/rapidcore.fun/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/api', 'before')
+#8 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-03 12:21:46 --> Error connecting to the database: Operation not permitted
+CRITICAL - 2026-06-03 12:21:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation not permitted
+#0 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(70): App\Models\UserModel->getUser('314')
+#5 /home/u160951123/domains/rapidcore.fun/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/api', 'before')
+#8 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-03 12:22:22 --> Error connecting to the database: Operation not permitted
+CRITICAL - 2026-06-03 12:22:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation not permitted
+#0 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(70): App\Models\UserModel->getUser('314')
+#5 /home/u160951123/domains/rapidcore.fun/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/api', 'before')
+#8 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-06-03 12:22:22 --> Error connecting to the database: Operation not permitted
+CRITICAL - 2026-06-03 12:22:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation not permitted
+#0 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Models/UserModel.php(70): App\Models\UserModel->getUser('314')
+#5 /home/u160951123/domains/rapidcore.fun/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/api', 'before')
+#8 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-03 13:34:33 --> Undefined index: HTTP_USER_AGENT
+#0 /home/u160951123/domains/rapidcore.fun/public_html/app/Views/Auth/login.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/u16095112...', 120, Array)
+#1 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u16095112...')
+#2 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/u160951123/domains/rapidcore.fun/public_html/app/Controllers/Auth.php(27): view('Auth/login', Array)
+#5 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/u160951123/domains/rapidcore.fun/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u160951123/domains/rapidcore.fun/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

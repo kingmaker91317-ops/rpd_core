@@ -1,0 +1,9 @@
+CRITICAL - 2025-09-16 20:15:47 --> A non-numeric value encountered
+#0 /home/ffdetect/public_html/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/ffdetect/...', 88, Array)
+#1 /home/ffdetect/public_html/app/Controllers/Keys.php(363): getPrice(Array, '168', '')
+#2 /home/ffdetect/public_html/app/Controllers/Keys.php(330): App\Controllers\Keys->generate_action()
+#3 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/ffdetect/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ffdetect/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

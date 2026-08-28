@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^pato/loginMasterPro$ /admin/pato/api.php [L,QSA]

@@ -1,0 +1,84 @@
+CRITICAL - 2023-08-07 09:58:22 --> Cannot redeclare App\Controllers\Keys::download_all_Keys()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-07 10:00:47 --> Cannot redeclare App\Controllers\Keys::deleteKeys()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-07 10:00:48 --> Cannot redeclare App\Controllers\Keys::deleteKeys()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-07 10:10:47 --> syntax error, unexpected '') ?>">' (T_CONSTANT_ENCAPSED_STRING)
+#0 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/list', Array, true)
+#2 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(63): view('Keys/list', Array)
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->index()
+#4 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-07 10:34:59 --> Too few arguments to function getPrice(), 3 passed in /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php on line 369 and exactly 4 expected
+#0 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(369): getPrice(Array, '2', '1')
+#1 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#2 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-07 10:35:16 --> Too few arguments to function getPrice(), 3 passed in /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php on line 369 and exactly 4 expected
+#0 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(369): getPrice(Array, '2', '1')
+#1 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#2 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-07 10:36:24 --> Too few arguments to function getPrice(), 3 passed in /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php on line 369 and exactly 4 expected
+#0 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(369): getPrice(Array, '2', '1')
+#1 /home/modvipxy/a.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#2 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-07 14:32:07 --> Undefined property: stdClass::$id_users
+#0 /home/modvipxy/a.modvip.xyz/app/Views/Admin/referral.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/modvipxy/...', 99, Array)
+#1 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/modvipxy/...')
+#2 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Admin/referral', Array, true)
+#4 /home/modvipxy/a.modvip.xyz/app/Controllers/User.php(79): view('Admin/referral', Array)
+#5 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#6 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-07 14:37:37 --> Undefined property: stdClass::$username
+#0 /home/modvipxy/a.modvip.xyz/app/Views/Admin/referral.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/modvipxy/...', 99, Array)
+#1 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/modvipxy/...')
+#2 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Admin/referral', Array, true)
+#4 /home/modvipxy/a.modvip.xyz/app/Controllers/User.php(79): view('Admin/referral', Array)
+#5 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#6 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-07 14:40:27 --> syntax error, unexpected '<'
+#0 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Admin/referral', Array, true)
+#2 /home/modvipxy/a.modvip.xyz/app/Controllers/User.php(79): view('Admin/referral', Array)
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#4 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-07 14:55:01 --> Undefined variable: user_ip
+#0 /home/modvipxy/a.modvip.xyz/app/Views/Auth/register.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 70, Array)
+#1 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/modvipxy/...')
+#2 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/register', Array, true)
+#4 /home/modvipxy/a.modvip.xyz/app/Controllers/Auth.php(68): view('Auth/register', Array)
+#5 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/modvipxy/a.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/modvipxy/a.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

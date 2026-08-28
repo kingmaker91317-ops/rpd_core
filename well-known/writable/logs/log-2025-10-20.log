@@ -1,0 +1,32 @@
+ERROR - 2025-10-20 16:07:58 --> Duplicate entry 'SUTHAN' for key 'user_key'
+CRITICAL - 2025-10-20 16:07:58 --> Duplicate entry 'SUTHAN' for key 'user_key'
+#0 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/powercheatofc/nexamod.powercheatofc.shop/app/Controllers/Keys.php(521): CodeIgniter\Model->insert(Array)
+#8 /home/powercheatofc/nexamod.powercheatofc.shop/app/Controllers/Keys.php(359): App\Controllers\Keys->generate_action()
+#9 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#10 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/powercheatofc/nexamod.powercheatofc.shop/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2025-10-20 17:07:28 --> Duplicate entry 'SUTHAN' for key 'user_key'
+CRITICAL - 2025-10-20 17:07:28 --> Duplicate entry 'SUTHAN' for key 'user_key'
+#0 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/powercheatofc/nexamod.powercheatofc.shop/app/Controllers/Keys.php(521): CodeIgniter\Model->insert(Array)
+#8 /home/powercheatofc/nexamod.powercheatofc.shop/app/Controllers/Keys.php(359): App\Controllers\Keys->generate_action()
+#9 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#10 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 /home/powercheatofc/nexamod.powercheatofc.shop/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/powercheatofc/nexamod.powercheatofc.shop/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

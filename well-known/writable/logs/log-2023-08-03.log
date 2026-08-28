@@ -1,0 +1,144 @@
+CRITICAL - 2023-08-03 15:33:05 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:17 --> Too many connections
+#0 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(149): include('/home/modvipxy/...')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:17 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:18 --> Too many connections
+#0 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(149): include('/home/modvipxy/...')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:19 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:20 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:21 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:22 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:23 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:24 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:25 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:26 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:27 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:28 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:28 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-03 22:04:29 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'modvipxy_Sam', 'modvipxy_Sam', 'modvipxy_Sam')
+#2 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

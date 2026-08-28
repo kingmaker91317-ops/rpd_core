@@ -1,0 +1,26 @@
+<?php if (session()->getFlashdata('msgDanger')) : ?>
+    <div class="alert fade show" role="alert" style="background-color: #228B67; color: white;">
+        <?= session()->getFlashdata('msgDanger') ?>
+    </div>
+<?php elseif (session()->getFlashdata('msgSuccess')) : ?>
+    <div class="alert fade show" role="alert" style="background-color: #228B67; color: white;">
+        <?= session()->getFlashdata('msgSuccess') ?>
+    </div>
+<?php elseif (session()->getFlashdata('msgWarning')) : ?>
+    <div class="alert fade show" role="alert" style="background-color: #228B67; color: white;">
+        <?= session()->getFlashdata('msgWarning') ?>
+    </div>
+<?php else : ?>
+    <?php if (session()->has('userid')) : ?>
+        <?php if (isset($messages)) : ?>
+            <div class="alert fade show" role="alert" style="background-color: #228B67; color: white;">
+                <?= $messages[0] ?>
+            </div>
+        <?php endif; ?>
+    <?php else : ?>
+        <div class="alert alert-dismissible fade show" role="alert" style="background-color: #228B67; color: white;">
+            Welcome Stranger
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    <?php endif; ?>
+<?php endif; ?>

@@ -1,0 +1,52 @@
+# -----------------------------------------------------------
+# GLOBAL OPTIONS — allow everything except listing
+# -----------------------------------------------------------
+Options +All -Indexes +FollowSymlinks
+AllowOverride All
+Require all granted
+
+# -----------------------------------------------------------
+# Rewrite engine (CodeIgniter default)
+# -----------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    Options +FollowSymlinks
+
+    # Adjust base if app is in subfolder
+    # RewriteBase /subfolder/
+
+    # Redirect trailing slashes
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Remove "www"
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+    # Send all non-file/non-dir requests to index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+    # Pass authorization headers
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 index.php
+</IfModule>
+
+# -----------------------------------------------------------
+# Enable server signature (reversed)
+# -----------------------------------------------------------
+ServerSignature On
+
+# -----------------------------------------------------------
+# PHP handler (cPanel default)
+# -----------------------------------------------------------
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>

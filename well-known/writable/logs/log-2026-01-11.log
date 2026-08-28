@@ -1,0 +1,184 @@
+CRITICAL - 2026-01-11 08:15:43 --> Undefined variable: userDetails1
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/Server/Server.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 94, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(376): view('Server/Server', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:20:44 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 77, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:21:29 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 65, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:21:30 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 65, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:21:32 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 65, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:21:33 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 65, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:21:35 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 65, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:22:36 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 68, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:22:38 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 68, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:24:44 --> Undefined variable: keycount
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Views/User/dashboard.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u66848956...', 72, Array)
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/u66848956...')
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/User.php(51): view('User/dashboard', Array)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-01-11 08:44:28 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-01-11 08:44:46 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-01-11 08:48:11 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-01-11 08:53:38 --> Invalid file: Keys/edit.php
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Keys/edit.php')
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/edit', Array, true)
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/Keys.php(81): view('Keys/edit', Array)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit()
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-01-11 08:53:45 --> Invalid file: Keys/edit.php
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Keys/edit.php')
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/edit', Array, true)
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/app/Controllers/Keys.php(81): view('Keys/edit', Array)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit()
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-01-11 09:27:44 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-01-11 09:27:45 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-01-11 09:31:20 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-01-11 09:31:25 --> The action you requested is not allowed.
+#0 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Security/Security.php(277): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/edit', 'before')
+#4 /home/u668489569/domains/masterpanelkey.shop/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u668489569/domains/masterpanelkey.shop/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

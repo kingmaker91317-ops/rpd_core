@@ -1,0 +1,32 @@
+CRITICAL - 2023-07-28 22:29:51 --> Undefined variable: expiry
+#0 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 190, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-28 22:29:52 --> Undefined variable: expiry
+#0 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 190, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-28 22:29:54 --> Undefined variable: expiry
+#0 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 190, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-28 22:29:54 --> Undefined variable: expiry
+#0 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/modvipxy/...', 190, Array)
+#1 /home/modvipxy/sam.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/modvipxy/sam.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/modvipxy/sam.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

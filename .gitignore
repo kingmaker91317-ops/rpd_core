@@ -1,0 +1,15 @@
+# Logs & Sessions
+*.log
+well-known/writable/logs/*
+well-known/writable/session/*
+public_html/public_html/writable/logs/*
+public_html/public_html/writable/session/*
+public_html/public_html/writable/cache/*
+well-known/writable/cache/*
+
+# Environment files
+.env
+
+# OS generated
+.DS_Store
+Thumbs.db

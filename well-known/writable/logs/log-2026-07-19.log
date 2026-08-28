@@ -1,0 +1,24 @@
+CRITICAL - 2026-07-19 19:43:24 --> Class 'App\Models\KeysModel' not found
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Bsdkik->__construct()
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-07-19 19:43:24 --> Uncaught TypeError: Argument 1 passed to CodeIgniter\Format\Format::__construct() must be an instance of Config\Format, null given, called in /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Config/Services.php on line 276 and defined in /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Format/Format.php:32
+Stack trace:
+#0 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Config/Services.php(276): CodeIgniter\Format\Format->__construct(NULL)
+#1 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::format(NULL, false)
+#2 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('format', Array)
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Config/Services.php(271): CodeIgniter\Config\BaseService::getSharedInstance('format', NULL)
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/Config
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2026-07-19 22:26:03 --> A non-numeric value encountered
+#0 /home/xkynpbah/public_html/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/xkynpbah/...', 88, Array)
+#1 /home/xkynpbah/public_html/app/Controllers/Keys.php(467): getPrice(Array, '720', '')
+#2 /home/xkynpbah/public_html/app/Controllers/Keys.php(430): App\Controllers\Keys->generate_action()
+#3 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/xkynpbah/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/xkynpbah/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

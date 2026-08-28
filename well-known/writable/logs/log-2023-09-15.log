@@ -1,0 +1,36 @@
+CRITICAL - 2023-09-15 07:15:04 --> mysqli_connect(): (08004/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/bablu.modvip.xyz/conn.php(8): mysqli_connect('localhost', 'modvipxy_bablu', 'modvipxy_bablu', 'modvipxy_bablu')
+#2 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/bablu.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-15 12:46:43 --> Too many connections
+#0 /home/modvipxy/bablu.modvip.xyz/conn.php(8): mysqli_connect('localhost', 'modvipxy_bablu', 'modvipxy_bablu', 'modvipxy_bablu')
+#1 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Connect.php(149): include('/home/modvipxy/...')
+#2 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#3 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/bablu.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-15 19:32:52 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/bablu.modvip.xyz/conn.php(8): mysqli_connect('localhost', 'modvipxy_bablu', 'modvipxy_bablu', 'modvipxy_bablu')
+#2 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/bablu.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-15 19:33:10 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/modvipxy/...', 8, Array)
+#1 /home/modvipxy/bablu.modvip.xyz/conn.php(8): mysqli_connect('localhost', 'modvipxy_bablu', 'modvipxy_bablu', 'modvipxy_bablu')
+#2 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Connect.php(13): include('/home/modvipxy/...')
+#3 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/bablu.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

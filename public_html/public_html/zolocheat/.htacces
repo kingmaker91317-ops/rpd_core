@@ -1,0 +1,17 @@
+# API endpoint routing for mrlightdva.online/zolocheat/
+# File này đặt trong thư mục /zolocheat/
+# File index.php sẽ tự động được gọi khi truy cập mrlightdva.online/zolocheat/
+
+RewriteEngine On
+
+# Đảm bảo index.php được gọi khi truy cập root của /zolocheat/
+# Nếu client gọi: mrlightdva.online/zolocheat/?author=zolo
+# Apache sẽ tự động gọi index.php (không cần rewrite rule)
+
+# Cho phép CORS
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, application-type"
+</IfModule>
+

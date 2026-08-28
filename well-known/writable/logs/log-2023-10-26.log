@@ -1,0 +1,9 @@
+CRITICAL - 2023-10-26 17:05:40 --> A non-numeric value encountered
+#0 /home/modvipxy/bablu.modvip.xyz/app/Helpers/nata_helper.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/modvipxy/...', 88, Array)
+#1 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Keys.php(369): getPrice(Array, '24', '')
+#2 /home/modvipxy/bablu.modvip.xyz/app/Controllers/Keys.php(336): App\Controllers\Keys->generate_action()
+#3 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/modvipxy/bablu.modvip.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/modvipxy/bablu.modvip.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
