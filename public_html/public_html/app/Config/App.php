@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'https://kissmodkey.online/';
+	public $baseURL = 'https://rpd-core.onrender.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -35,6 +35,7 @@ class App extends BaseConfig
 	 * @var string[]
 	 */
 	protected $baseURLHosts = [
+		'rpd-core.onrender.com',
 		'kissmodkey.online',
 		'ttsmodgame.online',
 	    'ktunplay.online',
@@ -53,7 +54,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $indexPage = '/';
+	public $indexPage = '';
 
 	/**
 	 * --------------------------------------------------------------------------
