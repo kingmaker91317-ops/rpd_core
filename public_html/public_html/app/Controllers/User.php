@@ -27,26 +27,37 @@ class User extends BaseController
     {
         $historyModel = new HistoryModel();
         
-        // Get top 5 sellers by key count
-        $db = \Config\Database::connect();
-        $topSellers = $db->query("
-            SELECT 
-                a.id_users,
-                a.username,
-                COUNT(u.id) as total_keys
-            FROM admin a
-            LEFT JOIN users u ON a.username COLLATE utf8mb4_general_ci = u.registrator COLLATE utf8mb4_general_ci
-            WHERE a.level > 1
-            GROUP BY a.id_users, a.username
-            ORDER BY total_keys DESC
-            LIMIT 5
-        ")->getResultArray();
+        $topSellers = [];
+        try {
+            $db = \Config\Database::connect();
+            $topSellers = $db->query("
+                SELECT 
+                    a.id_users,
+                    a.username,
+                    COUNT(k.id_keys) as total_keys
+                FROM users a
+                LEFT JOIN keys_code k ON a.username = k.registrator
+                WHERE a.level > 1
+                GROUP BY a.id_users, a.username
+                ORDER BY total_keys DESC
+                LIMIT 5
+            ")->getResultArray();
+        } catch (\Throwable $e) {
+            $topSellers = [];
+        }
         
+        $historyData = [];
+        try {
+            $historyData = $historyModel->getAll();
+        } catch (\Throwable $e) {
+            $historyData = [];
+        }
+
         $data = [
-            'title' => 'Dashboard',
-            'user' => $this->user,
-            'time' => $this->time,
-            'history' => $historyModel->getAll(),
+            'title'      => 'Dashboard',
+            'user'       => $this->user,
+            'time'       => $this->time,
+            'history'    => $historyData,
             'topSellers' => $topSellers,
         ];
         return view('User/dashboard', $data);
