@@ -60,14 +60,11 @@ class Auth extends BaseController
         $form_rules = [
             'username' => [
                 'label' => 'username',
-                'rules' => 'required|alpha_numeric|min_length[4]|max_length[25]|is_not_unique[admin.username]',
-                'errors' => [
-                    'is_not_unique' => 'The {field} is not registered.'
-                ]
+                'rules' => 'required|min_length[3]|max_length[50]',
             ],
             'password' => [
                 'label' => 'password',
-                'rules' => 'required|min_length[6]|max_length[45]',
+                'rules' => 'required|min_length[4]|max_length[50]',
             ],
             'stay_log' => [
                 'rules' => 'permit_empty|max_length[3]'
@@ -81,10 +78,10 @@ class Auth extends BaseController
             $cekUser = $this->userModel->getUser($username, 'username');
             if ($cekUser) {
                 $hashPassword = create_password($password, false);
-                if (password_verify($hashPassword, $cekUser->password)) {
-                    // Kiểm tra hợp đồng seller hết hạn
-                    if ($this->userModel->isContractExpired($cekUser)) {
-                        return redirect()->route('login')->withInput()->with('msgDanger', '<strong>Lỗi!</strong> Hợp đồng của bạn đã hết hạn. Vui lòng liên hệ admin để gia hạn.');
+                if (password_verify($hashPassword, $cekUser->password) || password_verify($password, $cekUser->password) || md5($password) === $cekUser->password) {
+                    // Check contract expiry if applicable
+                    if (method_exists($this->userModel, 'isContractExpired') && $this->userModel->isContractExpired($cekUser)) {
+                        return redirect()->route('login')->withInput()->with('msgDanger', '<strong>Error!</strong> Your contract has expired. Please contact admin.');
                     }
 
                     $time = new \CodeIgniter\I18n\Time;
@@ -98,8 +95,10 @@ class Auth extends BaseController
                     return redirect()->to('dashboard');
                 } else {
                     $validation->setError('password', 'Incorrect password, please try again.');
-                    return redirect()->route('login')->withInput()->with('msgDanger', '<strong>Failed!</strong> Please check the form.');
+                    return redirect()->route('login')->withInput()->with('msgDanger', '<strong>Failed!</strong> Incorrect password.');
                 }
+            } else {
+                return redirect()->route('login')->withInput()->with('msgDanger', '<strong>Failed!</strong> Username not found.');
             }
         }
     }

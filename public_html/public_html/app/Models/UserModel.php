@@ -43,13 +43,22 @@ class UserModel extends Model
     
     /*=================================================================*/
 
-public function getUser($userid = false, $where = 'default')
+    public function getUser($userid = false, $where = 'default')
     {
         $userid = $userid ?: session()->userid;
         $where = ($where == 'default' ? 'id_users' : $where);
-        $wfind = $this->where($where, $userid)
-            ->get()
-            ->getFirstRow();
+        try {
+            $wfind = $this->db->table('admin')->where($where, $userid)->get()->getFirstRow();
+        } catch (\Throwable $e) {
+            $wfind = null;
+        }
+        if (!$wfind) {
+            try {
+                $wfind = $this->db->table('users')->where($where, $userid)->get()->getFirstRow();
+            } catch (\Throwable $e) {
+                $wfind = null;
+            }
+        }
         return $wfind ?: NULL;
     }
 
