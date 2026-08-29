@@ -3,8 +3,10 @@ FROM php:8.1-apache
 # Enable Apache modules
 RUN a2enmod rewrite headers
 
-# Install required PHP extensions
-RUN docker-php-ext-install pdo pdo_mysql mysqli
+# Install required system packages and PHP extensions (intl is required by CodeIgniter 4)
+RUN apt-get update && apt-get install -y libicu-dev libpng-dev libzip-dev zip unzip && \
+    docker-php-ext-configure intl && \
+    docker-php-ext-install intl pdo pdo_mysql mysqli gd zip
 
 # Copy application files
 COPY . /var/www/html/
