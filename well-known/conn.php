@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "xkynpbah_titoo";
-$password = "xkynpbah_titoo";
-$dbname = "xkynpbah_titoo";
+$servername = getenv('database.default.hostname') ?: ($_ENV['database.default.hostname'] ?? "localhost");
+$username = getenv('database.default.username') ?: ($_ENV['database.default.username'] ?? "xkynpbah_titoo");
+$password = getenv('database.default.password') ?: ($_ENV['database.default.password'] ?? "xkynpbah_titoo");
+$dbname = getenv('database.default.database') ?: ($_ENV['database.default.database'] ?? "xkynpbah_titoo");
 
 $conn = mysqli_connect($servername,$username,$password,$dbname);
 
